@@ -1,0 +1,11 @@
+<div>
+    <div>
+        <nav>
+            <ul>
+                <li *ngFor="let menu of menus">
+                    <a routerLink="{{ menu.route }}">{{ menu.display }}</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
